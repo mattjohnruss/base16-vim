@@ -20,13 +20,13 @@ let s:gui04 = "b0b0b0"
 let s:gui05 = "d0d0d0"
 let s:gui06 = "e0e0e0"
 let s:gui07 = "f5f5f5"
-let s:gui08 = "fb9fb1"
+let s:gui08 = "e79bad"
 let s:gui09 = "eda987"
-let s:gui0A = "ddb26f"
+let s:gui0A = "d9ae6b"
 let s:gui0B = "acc267"
-let s:gui0C = "12cfc0"
+let s:gui0C = "54a59f"
 let s:gui0D = "6fc2ef"
-let s:gui0E = "e1a3ee"
+let s:gui0E = "da94e0"
 let s:gui0F = "deaf8f"
 
 " Terminal color definitions
@@ -182,29 +182,29 @@ call <sid>hi("TabLineSel",    s:gui0B, s:gui01, s:cterm0B, s:cterm01, "none")
 call <sid>hi("Boolean",      s:gui09, "", s:cterm09, "", "")
 call <sid>hi("Character",    s:gui08, "", s:cterm08, "", "")
 call <sid>hi("Comment",      s:gui03, "", s:cterm03, "", "")
-call <sid>hi("Conditional",  s:gui0E, "", s:cterm0E, "", "")
+call <sid>hi("Conditional",  s:gui0E, "", s:cterm0E, "", "bold")
 call <sid>hi("Constant",     s:gui09, "", s:cterm09, "", "")
 call <sid>hi("Define",       s:gui0E, "", s:cterm0E, "", "none")
-call <sid>hi("Delimiter",    s:gui0F, "", s:cterm0F, "", "")
+call <sid>hi("Delimiter",    s:gui0F, "", s:cterm0F, "", "bold")
 call <sid>hi("Float",        s:gui09, "", s:cterm09, "", "")
 call <sid>hi("Function",     s:gui0D, "", s:cterm0D, "", "")
 call <sid>hi("Identifier",   s:gui08, "", s:cterm08, "", "none")
 call <sid>hi("Include",      s:gui0D, "", s:cterm0D, "", "")
 call <sid>hi("Keyword",      s:gui0E, "", s:cterm0E, "", "")
-call <sid>hi("Label",        s:gui0A, "", s:cterm0A, "", "")
+call <sid>hi("Label",        s:gui0A, "", s:cterm0A, "", "bold")
 call <sid>hi("Number",       s:gui09, "", s:cterm09, "", "")
 call <sid>hi("Operator",     s:gui05, "", s:cterm05, "", "none")
 call <sid>hi("PreProc",      s:gui0A, "", s:cterm0A, "", "")
-call <sid>hi("Repeat",       s:gui0A, "", s:cterm0A, "", "")
-call <sid>hi("Special",      s:gui0C, "", s:cterm0C, "", "")
-call <sid>hi("SpecialChar",  s:gui0F, "", s:cterm0F, "", "")
+call <sid>hi("Repeat",       s:gui0A, "", s:cterm0A, "", "bold")
+call <sid>hi("Special",      s:gui0C, "", s:cterm0C, "", "bold")
+call <sid>hi("SpecialChar",  s:gui0F, "", s:cterm0F, "", "bold")
 call <sid>hi("Statement",    s:gui08, "", s:cterm08, "", "")
-call <sid>hi("StorageClass", s:gui0A, "", s:cterm0A, "", "")
+call <sid>hi("StorageClass", s:gui0A, "", s:cterm0A, "", "bold")
 call <sid>hi("String",       s:gui0B, "", s:cterm0B, "", "")
-call <sid>hi("Structure",    s:gui0E, "", s:cterm0E, "", "")
+call <sid>hi("Structure",    s:gui0E, "", s:cterm0E, "", "bold")
 call <sid>hi("Tag",          s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("Todo",         s:gui0A, s:gui01, s:cterm0A, s:cterm01, "")
-call <sid>hi("Type",         s:gui0A, "", s:cterm0A, "", "none")
+call <sid>hi("Type",         s:gui0A, "", s:cterm0A, "", "bold")
 call <sid>hi("Typedef",      s:gui0A, "", s:cterm0A, "", "")
 
 " C highlighting
